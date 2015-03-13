@@ -42,5 +42,5 @@ if old_ip != new_ip:
 	print 'Disconnecting...'
 	server.close()
 	print 'Done!'
-else
+else:
 	print "Same IP" + new_ip
